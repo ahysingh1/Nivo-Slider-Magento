@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <!-- delete the following one line if you have integrated jquery on admin area by another module -->
+            <action method="addJs"><script>harpreet/jquery-1-7-1.js</script></action>
+            
+            <action method="addItem"><type>skin_css</type><name>harpreet/colorpicker/css/colorpicker.css</name></action>
+            <action method="addItem"><type>skin_css</type><name>harpreet/colorpicker/css/layout.css</name></action>
+            
+            <action method="addItem"><type>skin_js</type><name>harpreet/colorpicker/js/colorpicker.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>harpreet/colorpicker/js/eye.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>harpreet/colorpicker/js/utils.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>harpreet/colorpicker/js/layout.js</name></action>
+            
+            <action method="addItem"><type>skin_js</type><name>harpreet/colorpicker/start.js</name></action>
+        </reference>
+    </default>
+</layout>
